@@ -3,6 +3,8 @@ public class GradeCalculator implements PercentageCalculator, GPAcalculator {
 
     @Override
     public double calculatePercentage(Student student) {
+
+
         double totalGrades = 0;
         List<Course> courses = student.getCourses();
         int totalCourses = courses.size();

@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
         List<Course> courses = Arrays.asList(
                 new Course("Math", 75),
                 new Course("History", 85),
