@@ -3,6 +3,7 @@ public class Course {
     private double grade;
 
 
+
     public Course(String name, double grade) {
         this.name = name;
         this.grade = grade;
