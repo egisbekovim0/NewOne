@@ -1,2 +1,3 @@
-public class Grades {
+public class Grades extends Student{
+
 }
