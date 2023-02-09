@@ -1,27 +1,18 @@
-class Student {
+import java.util.List;
+public class Student {
     private String name;
-    private String studentID;
-    private List<Grades> grades;
+    private List<Course> courses;
 
-    public Student(String name, String studentID) {
+    public Student(String name, List<Course> courses) {
         this.name = name;
-        this.studentID = studentID;
-        this.grades = new ArrayList<>();
-    }
-
-    public void addGrade(Grades grade) {
-        this.grades.add(grade);
+        this.courses = courses;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getStudentID() {
-        return studentID;
-    }
-
-    public List<Grades> getGrades() {
-        return grades;
+    public List<Course> getCourses() {
+        return courses;
     }
 }
